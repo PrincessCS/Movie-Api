@@ -31,14 +31,7 @@ const movies =[
         return movies;
     }
 
-   /* static rentMovie(movieId) {
-        if (availableMovies[movieId] && availableMovies[movieId] > 0) {
-            availableMovies[movieId]--;
-            return { success: true, message: 'Movie rented successfully.' };
-        } else {
-            return { success: false, message: 'Movie not available for rent.' };
-        }
-    }*/
+
 
 
     addMovie(movie){
@@ -66,7 +59,7 @@ const movies =[
         }
       }
     
-      // ... (existing code)
+      
     }
 
     // adding a new movie
